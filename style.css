@@ -1,0 +1,101 @@
+/* * USF Software Engineering Bootcamp - Cohort Aug/2022
+ **
+ ** Author: Daniel C Lopes
+ ** Project: CSS Mocks Exercise
+ **August 25th, 2022
+* */
+
+body {
+  margin: 0;
+  border: 5px solid black;
+  height: 100vh;
+  position: relative;
+}
+
+.one {
+  width: 400px;
+  height: 400px;
+  background-color: red;
+}
+
+.two {
+  width: 300px;
+  height: 300px;
+  background-color: yellow;
+}
+
+.three {
+  width: 200px;
+  height: 200px;
+  background-color: green;
+}
+
+.four {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+}
+
+/* Part 1: CSS Positioning - Exercise 1 */
+/* body .two, body .three, body .four {
+  position: relative;
+  top: 50px;
+  left: 50px;
+} */
+
+/* Part 1: CSS Positioning - Exercise 2 */
+/* body .four {
+  position: absolute;
+  right: 0;
+} */
+
+
+/* Part 1: CSS Positioning - Exercise 3 */
+/* body .three {
+  position: absolute;
+  left: 400px;
+  top: 200px;
+}
+body .four {
+  position: relative;
+  top: 100px;
+} */
+
+/* Part 1: CSS Positioning - Exercise 4 */
+/* body .two {
+  position: relative;
+  top: 100px;
+  left: 100px;
+}
+body .three {
+  position: relative;
+  bottom: 100px;
+  right: 100px;
+}
+body .four {
+  position: relative;
+  top: 100px;
+  left: 100px;
+} */
+
+/* Part 1: CSS Positioning - Exercise 5 */
+/* body .one {
+  position: fixed;
+  top: 5px;
+  left: 5px;
+}
+body .two {
+  position: fixed;
+  bottom: 5px;
+  right: 5px;
+}
+body .three {
+  position: absolute;
+  bottom: 300px;
+  right: 100px;
+}
+body .four {
+  position: fixed;
+  top: 5px;
+  left: 5px;
+} */
